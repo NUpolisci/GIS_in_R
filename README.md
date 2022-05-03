@@ -7,7 +7,7 @@
 Welcome to the Geographic Information Systems (GIS) in R Workshop! You are likely no doubt wondering why we are here and why I am teaching this in R rather than ArcGIS, or any similar software. GIS analyzes geographical data and R provides an open source, reproducible way of doing this. In this workshop, we will cover the basics of GIS tools in R and I will leave you with some familiarity with this skill, along with recommendations for further exploration. This workshop has three goals:
 
 1. Become familiar with how to get geographic data and how to parse that data.
-2, Become familiar with shape files, how to access them and how to plot them using `ggplot2`
+2. Become familiar with shape files, how to access them and how to plot them using `ggplot2`
 3. Become familiar with distance calculations and learn to add additional layers of data to an existing map.
 
 We will cover a lot but not in great detail. This workshop, while assuming more intermediate R knowledge, is not meant to be a deep dive into all things related to GIS in R. The examples from today will be from a predominantly US context, but the skills can be applied to geographic data from almost anywhere else. 
