@@ -15,3 +15,10 @@ This is a more advanced R workshop and covers packages in the `tidyverse` univer
 1. You have broad-based familiarity with `ggplot2`^[To review these basics, please refer to the materials for my Beginner's `ggplot` Workshop on GitHub: https://github.com/NUpolisci/Fall-Module-3. Also, refer to my Advanced `ggplot` Workshop on GitHub for ways to streamline coding in `ggplot2`: https://github.com/NUpolisci/Adv_ggplot_W22. These skills will come in handy here.]. There is no need to know how to write a chunk of `ggplot` code from memory, but you should have an understanding of what each line of code does.
 2. You should know how to install and read in packages in R. We will cover many packages today.
 3. You can load in data based in different file types wrangle data in `dplyr`^[For a quick overview of `dplyr`, see my `dplyr`/`ggplot` crash course workshop notes on GitHub: https://github.com/NUpolisci/ggplot-workshop]. Again, there is no need to know how to wrangle data off memory, but you should be familiar with functions like `filter()`, `select()` and `mutate()`. You should also know how to use a pipe (`%>%`).
+
+## Contents
+
+- `RGIS_SLIDES.pdf`: Slides
+- `RGIS_NOTES.pdf`: Handout
+- `RGIS_Workshop.R`: Script
+- `DC.places`: Select places data
