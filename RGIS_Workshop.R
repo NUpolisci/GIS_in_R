@@ -116,6 +116,8 @@ DC_Destinations <- DC_POI %>%
   filter(ALIASNAME %in% Select_Places) %>% 
   st_transform(crs = 4269)
 
+st_crs(DC_Destinations)
+
 # Pick locations
 vacation <- c(
   "THOMAS JEFFERSON MEMORIAL",
@@ -155,8 +157,6 @@ chosen_places <- cbind(
       p1 = cbind(start_long, start_lat),
       p2 = cbind(end_long, end_lat))
   ) %>% 
-  group_by(from) %>% 
-  slice(which.min(distance)) %>% 
   # Converts distance to miles and kilometers
   mutate(
     miles = distance/1609.344,
